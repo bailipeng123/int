@@ -1,0 +1,9 @@
+.rank .am-list-item img{
+	width: 2rem;
+	height: 2rem;
+	padding:.4rem 0;
+}
+.rank .am-list-item span{
+	display: inline-block;
+	padding-left: 2.2rem;
+}

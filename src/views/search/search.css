@@ -1,0 +1,12 @@
+.search .am-list-header{
+	line-height: .3rem;
+	color: #5116F6;
+	font-size: .3rem;
+}
+.search .am-list-item{
+	height: 1.5rem;
+}
+.searchresult{
+	font-size: .4rem;
+	text-indent: .3rem;
+}

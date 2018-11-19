@@ -1,0 +1,21 @@
+html{
+	font-size: 13.333333333vw;
+}
+.fixed{
+	position: fixed;
+	z-index: 999;
+	width: 100vw;
+}
+.content{
+	padding-top: 2.2rem;
+}
+.content .am-icon-loading{
+	display: block;
+	margin: 5rem auto;
+}
+.fixed .am-navbar:nth-child(1){
+	height: 1.4rem;
+}
+.fixed .am-navbar:nth-child(2){
+	height: .8rem;
+}

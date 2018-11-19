@@ -1,0 +1,46 @@
+.fixed-bottom{
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	width: 100vw;
+	background: rgba(0,0,0,.8);
+	height: 1.5rem;
+	color: #fff;
+}
+.fixed-bottom img{
+	width: 1.2rem;
+  height: 1.2rem;
+}
+.fixed-bottom .am-list-line .am-list-content{
+	color: #fff;
+}
+.fixed-bottom .am-list-line .am-list-brief{
+	color: #BBB7B7;
+}
+.fixed-bottom .am-list-line .am-list-extra{
+	text-align: left;
+	flex-basis: 50%;
+}
+.fixed-bottom .control i{
+	padding:0 .2rem;
+	color: #fff;
+}
+.am-slider-handle{
+	margin-left: -6px;
+	margin-top:-6px;
+	width: 14px;
+	height: 14px;
+}
+.regulate i{
+	padding: 0 .5rem;
+}
+.rang .left{
+	float: left
+}
+.rang .right{
+	float: right
+}
+.krc{
+	text-align: center;
+	color: #CF4B4B;
+}
