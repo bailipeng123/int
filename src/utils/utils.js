@@ -28,7 +28,7 @@ export function parseLyric(text) {
       //提取歌词
       value = v.replace(pattern, '');
     //因为一行里面可能有多个时间，所以time有可能是[xx:xx.xx][xx:xx.xx][xx:xx.xx]的形式，需要进一步分隔
-    time.forEach(function (v1, i1, a1) {
+    time && time.forEach(function (v1, i1, a1) {
       //去掉时间里的中括号得到xx:xx.xx
       var t = v1.slice(1, -1).split(':');
       //将结果压入最终数组
